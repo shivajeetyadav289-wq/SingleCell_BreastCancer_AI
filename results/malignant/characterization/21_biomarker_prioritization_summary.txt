@@ -1,0 +1,42 @@
+MALIGNANT BIOMARKER PRIORITIZATION SUMMARY
+===========================================
+
+Significant DE genes: 3877
+
+Malignant-enriched genes: 3254
+
+Core biomarker candidates: 986
+
+High-priority candidates: 164
+
+3-sample consistent candidates: 626
+
+Standard candidates: 979
+
+Genes requiring biological review: 7
+
+Primary biomarker criteria:
+Adjusted P-value < 0.05
+Average log2FC >= 0.50
+Malignant prevalence >= 25%
+Prevalence difference >= 15 percentage points
+
+Sample consistency:
+Expression prevalence evaluated independently
+across BC11, BC12 and BC17.
+
+Scoring:
+Effect size = 25%
+Malignant prevalence = 20%
+Specificity = 20%
+Statistical significance = 15%
+Sample consistency = 20%
+
+Important:
+This prioritization score is a research
+framework and is not a validated clinical
+biomarker score.
+
+Genes flagged for biological review are
+not automatically excluded. They require
+additional biological and technical validation.

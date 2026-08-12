@@ -1,0 +1,18 @@
+CNV + MARKER INTEGRATION SUMMARY
+================================
+
+Total CopyKAT predictions: 3995
+Aneuploid: 1019
+Diploid: 2362
+Not defined: 614
+
+Final malignant candidates: 1019
+High-confidence malignant candidates: 1019
+
+Interpretation:
+Aneuploid status provides CNV evidence but does not
+by itself establish malignancy.
+Final candidates require integration with tumor-candidate
+and epithelial/marker evidence.
+These classifications are research annotations and
+not clinical diagnostic calls.

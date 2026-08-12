@@ -1,0 +1,15 @@
+"seurat_clusters","cell_type","tumor_candidate","cell_count"
+"0","Luminal_Epithelial","Tumor_Candidate",5301
+"1","Luminal_Epithelial","Tumor_Candidate",4497
+"2","Basal_Like_Epithelial","Tumor_Candidate",4197
+"3","Luminal_Epithelial","Tumor_Candidate",2234
+"4","T_Cells","Other",1852
+"5","Cytotoxic_NK_T","Other",1757
+"6","Cycling_Proliferating","Other",1183
+"7","Fibroblast_CAF","Other",1132
+"8","Specialized_Epithelial","Tumor_Candidate",983
+"9","Macrophages","Other",570
+"10","Endothelial","Other",260
+"11","B_Cells","Other",247
+"12","Basal_Epithelial","Tumor_Candidate",184
+"13","Luminal_Epithelial","Tumor_Candidate",178

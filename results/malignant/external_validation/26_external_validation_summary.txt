@@ -1,0 +1,25 @@
+# STEP 26 EXTERNAL VALIDATION SUMMARY
+
+Step 25 candidate panel: 50
+
+External validation dataset:
+GSE176078
+
+Cancer epithelial cells in external dataset:
+24489
+
+External samples represented:
+20
+
+Candidates present in external gene matrix:
+47 / 50
+
+Important interpretation:
+Presence in an external dataset establishes
+data-level external support only.
+It does not establish clinical validity,
+causality, diagnostic performance, or
+prognostic utility.
+
+Expression-level validation should be
+performed separately if required.

@@ -1,0 +1,2 @@
+"sample_id","cells_before","doublets","singlets","doublet_percent","pK","BCmetric","expected_doublet_rate"
+"BC11",3551,266,3285,7.49084764854971,0.3,1467.89486509003,0.075

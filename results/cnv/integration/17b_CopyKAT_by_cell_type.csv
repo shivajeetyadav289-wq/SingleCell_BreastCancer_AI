@@ -1,0 +1,12 @@
+"cell_type","copykat.pred","cells"
+"Basal_Epithelial","diploid",35
+"Basal_Epithelial","not.defined",9
+"Basal_Like_Epithelial","aneuploid",155
+"Basal_Like_Epithelial","diploid",801
+"Basal_Like_Epithelial","not.defined",8
+"Luminal_Epithelial","aneuploid",856
+"Luminal_Epithelial","diploid",1277
+"Luminal_Epithelial","not.defined",596
+"Specialized_Epithelial","aneuploid",8
+"Specialized_Epithelial","diploid",249
+"Specialized_Epithelial","not.defined",1

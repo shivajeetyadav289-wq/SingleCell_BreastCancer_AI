@@ -1,0 +1,195 @@
+FINAL CANDIDATE BIOLOGICAL REVIEW SUMMARY
+=========================================
+
+Step 24 integrated candidates: 986 
+Strong candidates: 762 
+Strong 3-sample candidates: 615 
+
+Consistency distribution:
+
+Consistent_2_of_3 Consistent_3_of_3   Sample_specific 
+              282               626                78 
+
+Biological categories in complete Step-24 dataset:
+
+Epithelial_Tumor_Relevant   Mitochondrial_Metabolic           Other_Candidate 
+                        4                        47                       931 
+   Proliferation_Relevant           Stress_Response 
+                        3                         1 
+
+Final panel size:50 
+
+FINAL PANEL CATEGORY DISTRIBUTION:
+
+    Mitochondrial_OXPHOS Other_Research_Candidate            Proliferation 
+                      28                       16                        2 
+        Tumor_Epithelial 
+                       4 
+
+FINAL RESEARCH PANEL:
+
+   final_panel_rank    gene final_biological_score              final_tier
+1                 1  PRSS23              0.6834102 Tier_1_Tumor_Epithelial
+2                 2    EPN3              0.6832000 Tier_1_Tumor_Epithelial
+3                 3   FCGRT              0.6815060 Tier_1_Tumor_Epithelial
+4                 4    ESR1              0.5934176 Tier_1_Tumor_Epithelial
+5                 5    CDK4              0.5413590    Tier_1_Proliferation
+6                 6    PCNA              0.5327687    Tier_1_Proliferation
+7                 7 ATP5F1A              0.5149564           Tier_2_OXPHOS
+8                 8    ETFB              0.5081095           Tier_2_OXPHOS
+9                 9   COX7B              0.5049175           Tier_2_OXPHOS
+10               10   COX8A              0.5027892           Tier_2_OXPHOS
+11               11  NDUFB5              0.5014269           Tier_2_OXPHOS
+12               12    MDH2              0.5007755           Tier_2_OXPHOS
+13               13    SORD              0.5005510            Tier_3_Other
+14               14    CYC1              0.4998714           Tier_2_OXPHOS
+15               15 ATP5F1B              0.4989119           Tier_2_OXPHOS
+16               16   COX5B              0.4988502           Tier_2_OXPHOS
+17               17   MRPS7              0.4975842            Tier_3_Other
+18               18    PDHB              0.4974639            Tier_3_Other
+19               19  CYB561              0.4974070            Tier_3_Other
+20               20   COX5A              0.4973116           Tier_2_OXPHOS
+21               21  MRPS23              0.4970135            Tier_3_Other
+22               22  UQCR10              0.4970053           Tier_2_OXPHOS
+23               23  NDUFB7              0.4969961           Tier_2_OXPHOS
+24               24  MRPL27              0.4968432            Tier_3_Other
+25               25  NDUFB9              0.4964128           Tier_2_OXPHOS
+26               26 NDUFB10              0.4963771           Tier_2_OXPHOS
+27               27  MRPS26              0.4963711            Tier_3_Other
+28               28  MRPS12              0.4963212            Tier_3_Other
+29               29   UQCRH              0.4959853           Tier_2_OXPHOS
+30               30  MRPL12              0.4957764            Tier_3_Other
+31               31 SELENOT              0.4954880            Tier_3_Other
+32               32  NDUFS2              0.4953587           Tier_2_OXPHOS
+33               33 NDUFA12              0.4950021           Tier_2_OXPHOS
+34               34  NDUFA1              0.4946961           Tier_2_OXPHOS
+35               35  NDUFA8              0.4943729           Tier_2_OXPHOS
+36               36  MRPL23              0.4943635            Tier_3_Other
+37               37    IDH2              0.4941855           Tier_2_OXPHOS
+38               38  NDUFB4              0.4938024           Tier_2_OXPHOS
+39               39   COX11              0.4929358            Tier_3_Other
+40               40  NDUFA7              0.4925272           Tier_2_OXPHOS
+41               41  MRPL40              0.4925145            Tier_3_Other
+42               42  NDUFS6              0.4924928           Tier_2_OXPHOS
+43               43  NDUFS3              0.4919726           Tier_2_OXPHOS
+44               44    CALR              0.4916984            Tier_3_Other
+45               45 MRPS18A              0.4916829            Tier_3_Other
+46               46  NDUFV1              0.4915512           Tier_2_OXPHOS
+47               47  MRPS24              0.4907578            Tier_3_Other
+48               48    IDH1              0.4905631           Tier_2_OXPHOS
+49               49 COX7A2L              0.4902003           Tier_2_OXPHOS
+50               50  NDUFA6              0.4899259           Tier_2_OXPHOS
+   avg_log2FC pct.1 mean_sample_prevalence consistency_category
+1   1.5764075 0.739              0.7584107    Consistent_3_of_3
+2   2.3719404 0.452              0.4554575    Consistent_3_of_3
+3   1.4618398 0.708              0.7235252    Consistent_3_of_3
+4   1.3543031 0.618              0.6366250    Consistent_3_of_3
+5   0.5068909 0.534              0.5237632    Consistent_3_of_3
+6   0.5552109 0.339              0.3506712    Consistent_3_of_3
+7   1.7870575 0.789              0.7721521    Consistent_3_of_3
+8   1.3851815 0.651              0.6436166    Consistent_3_of_3
+9   1.1390992 0.957              0.9554563    Consistent_3_of_3
+10  1.0635670 0.981              0.9821625    Consistent_3_of_3
+11  1.0938748 0.784              0.7700655    Consistent_3_of_3
+12  1.0582212 0.892              0.8871085    Consistent_3_of_3
+13  1.5852401 0.492              0.4888098    Consistent_3_of_3
+14  1.0140573 0.849              0.8378817    Consistent_3_of_3
+15  0.9660754 0.896              0.8885975    Consistent_3_of_3
+16  0.8964063 0.986              0.9862267    Consistent_3_of_3
+17  0.9465694 0.745              0.7396890    Consistent_3_of_3
+18  1.2713569 0.562              0.5455311    Consistent_3_of_3
+19  1.3442816 0.583              0.6110581    Consistent_3_of_3
+20  0.8284631 0.947              0.9471881    Consistent_3_of_3
+21  1.0965408 0.655              0.6690670    Consistent_3_of_3
+22  0.8370106 0.964              0.9649831    Consistent_3_of_3
+23  0.7422423 0.931              0.9315204    Consistent_3_of_3
+24  0.8993269 0.785              0.7930428    Consistent_3_of_3
+25  0.7877100 0.970              0.9699244    Consistent_3_of_3
+26  0.7510860 0.925              0.9244054    Consistent_3_of_3
+27  0.8996454 0.764              0.7744305    Consistent_3_of_3
+28  0.9648469 0.752              0.7299610    Consistent_3_of_3
+29  0.8410125 0.971              0.9705966    Consistent_3_of_3
+30  1.0118574 0.700              0.6820983    Consistent_3_of_3
+31  0.8883207 0.792              0.7738786    Consistent_3_of_3
+32  0.9567466 0.761              0.7561591    Consistent_3_of_3
+33  0.8224852 0.785              0.7769319    Consistent_3_of_3
+34  0.7350456 0.926              0.9260383    Consistent_3_of_3
+35  0.9045170 0.744              0.7366290    Consistent_3_of_3
+36  0.8913400 0.732              0.7245351    Consistent_3_of_3
+37  0.6602189 0.908              0.9013161    Consistent_3_of_3
+38  0.7232951 0.960              0.9594919    Consistent_3_of_3
+39  1.3286303 0.455              0.4595116    Consistent_3_of_3
+40  0.6514862 0.868              0.8724880    Consistent_3_of_3
+41  0.9005781 0.663              0.6523986    Consistent_3_of_3
+42  0.6405120 0.889              0.8871495    Consistent_3_of_3
+43  0.8661049 0.685              0.6749623    Consistent_3_of_3
+44  0.6263344 0.901              0.8978064    Consistent_3_of_3
+45  1.1089154 0.554              0.5475575    Consistent_3_of_3
+46  0.9980493 0.621              0.5974443    Consistent_3_of_3
+47  0.6159109 0.865              0.8594547    Consistent_3_of_3
+48  1.3329247 0.418              0.4151422    Consistent_3_of_3
+49  0.7104115 0.837              0.8351963    Consistent_3_of_3
+50  0.6098352 0.884              0.8839438    Consistent_3_of_3
+            review_category
+1          Tumor_Epithelial
+2          Tumor_Epithelial
+3          Tumor_Epithelial
+4          Tumor_Epithelial
+5             Proliferation
+6             Proliferation
+7      Mitochondrial_OXPHOS
+8      Mitochondrial_OXPHOS
+9      Mitochondrial_OXPHOS
+10     Mitochondrial_OXPHOS
+11     Mitochondrial_OXPHOS
+12     Mitochondrial_OXPHOS
+13 Other_Research_Candidate
+14     Mitochondrial_OXPHOS
+15     Mitochondrial_OXPHOS
+16     Mitochondrial_OXPHOS
+17 Other_Research_Candidate
+18 Other_Research_Candidate
+19 Other_Research_Candidate
+20     Mitochondrial_OXPHOS
+21 Other_Research_Candidate
+22     Mitochondrial_OXPHOS
+23     Mitochondrial_OXPHOS
+24 Other_Research_Candidate
+25     Mitochondrial_OXPHOS
+26     Mitochondrial_OXPHOS
+27 Other_Research_Candidate
+28 Other_Research_Candidate
+29     Mitochondrial_OXPHOS
+30 Other_Research_Candidate
+31 Other_Research_Candidate
+32     Mitochondrial_OXPHOS
+33     Mitochondrial_OXPHOS
+34     Mitochondrial_OXPHOS
+35     Mitochondrial_OXPHOS
+36 Other_Research_Candidate
+37     Mitochondrial_OXPHOS
+38     Mitochondrial_OXPHOS
+39 Other_Research_Candidate
+40     Mitochondrial_OXPHOS
+41 Other_Research_Candidate
+42     Mitochondrial_OXPHOS
+43     Mitochondrial_OXPHOS
+44 Other_Research_Candidate
+45 Other_Research_Candidate
+46     Mitochondrial_OXPHOS
+47 Other_Research_Candidate
+48     Mitochondrial_OXPHOS
+49     Mitochondrial_OXPHOS
+50     Mitochondrial_OXPHOS
+
+
+IMPORTANT INTERPRETATION:
+The final panel is a research-oriented shortlist  derived from the complete Step-24 integrated  candidate ranking.
+
+Tumor/epithelial candidates are prioritized  separately from mitochondrial/OXPHOS candidates  because metabolic programs are not automatically  tumor-specific.
+
+Mitochondrial/OXPHOS candidates represent  biologically informative metabolic programs and  require additional validation before being  considered cancer-specific biomarkers.
+
+Sample consistency was evaluated across BC11,  BC12 and BC17.
+
+All classifications are research annotations and  are not clinical diagnostic classifications.

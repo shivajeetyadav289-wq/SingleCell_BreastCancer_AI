@@ -1,0 +1,4 @@
+"tumor_candidate_flag","epithelial_evidence","copykat.pred","cells"
+TRUE,TRUE,"aneuploid",1019
+TRUE,TRUE,"diploid",2362
+TRUE,TRUE,"not.defined",614

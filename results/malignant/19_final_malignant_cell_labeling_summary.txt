@@ -1,0 +1,18 @@
+FINAL MALIGNANT CELL LABELING SUMMARY
+====================================
+
+Total Seurat cells: 24575
+CopyKAT aneuploid cells: 1019
+Final CNV-supported malignant candidates: 1017
+
+Supported samples:
+BC11, BC12, BC17
+
+Definition:
+Tumor-candidate epithelial cells with
+CopyKAT aneuploid status in samples with
+substantial aneuploid representation.
+
+Important:
+These are research annotations.
+They are not clinical diagnostic classifications.

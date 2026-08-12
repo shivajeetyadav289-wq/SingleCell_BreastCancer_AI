@@ -1,0 +1,54 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Conda
+*.conda
+
+# Raw / external datasets
+data/raw/
+data/external/
+
+# Large bioinformatics files
+*.mtx
+*.h5
+*.h5ad
+*.rds
+*.RData
+*.sra
+*.fastq
+*.fastq.gz
+*.tar
+*.tar.gz
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+# Large CopyKAT outputs
+GSE228499_CopyKAT_*.txt
+GSE228499_CopyKAT_*.pdf
+GSE228499_CopyKAT_*.jpeg
+
+# R plot output
+Rplots.pdf
+
+# Large R serialized objects
+*.rds

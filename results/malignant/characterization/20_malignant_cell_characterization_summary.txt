@@ -1,0 +1,39 @@
+MALIGNANT CELL CHARACTERIZATION SUMMARY
+=========================================
+
+Total malignant candidates: 1017
+
+Cell-type composition:
+               cell_type cells percentage
+1     Luminal_Epithelial   855 84.0707965
+2  Basal_Like_Epithelial   154 15.1425762
+3 Specialized_Epithelial     8  0.7866273
+
+Sample composition:
+  sample_id malignant_cells percentage
+1      BC12             380    37.3648
+2      BC17             359    35.2999
+3      BC11             278    27.3353
+
+Genes tested in malignant vs diploid comparison: 5637
+
+Significant malignant-associated genes: 3877
+
+Primary comparison:
+CNV-supported malignant epithelial cells
+versus
+CopyKAT-diploid epithelial cells
+
+Secondary comparison:
+Luminal malignant epithelial cells
+versus
+Basal-like malignant epithelial cells
+
+Interpretation:
+Differentially expressed genes represent
+genes associated with the analyzed
+malignant populations.
+
+These results require biological
+validation and are not clinical
+diagnostic classifications.

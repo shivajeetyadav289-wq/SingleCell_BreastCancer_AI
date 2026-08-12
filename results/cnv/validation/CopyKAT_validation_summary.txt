@@ -1,0 +1,13 @@
+COPYKAT VALIDATION SUMMARY
+==========================
+Total CopyKAT predictions: 3995
+Aneuploid: 1019
+Diploid: 2362
+Not defined: 614
+High-confidence malignant candidates: 0
+
+Interpretation:
+CopyKAT aneuploid cells are malignant candidates,
+not automatically confirmed malignant cells.
+Final malignant-cell annotation should integrate
+CNV evidence with epithelial identity and marker evidence.

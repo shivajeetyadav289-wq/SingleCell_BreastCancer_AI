@@ -1,0 +1,50 @@
+MALIGNANT CANDIDATE BIOLOGICAL VALIDATION SUMMARY
+====================================================
+
+Step 21 prioritized genes: 986
+Step 22 high-priority genes: 162
+Step 22 robust 3-sample genes: 626
+Step 21 genes absent from Step 22 candidate sets: 332
+
+High-priority biological categories:
+  final_biological_category genes
+1           Other_Candidate   148
+2   Mitochondrial_Metabolic    10
+3 Epithelial_Tumor_Relevant     4
+
+Robust 3-sample biological categories:
+  final_biological_category genes
+1           Other_Candidate   571
+2   Mitochondrial_Metabolic    47
+3 Epithelial_Tumor_Relevant     4
+4    Proliferation_Relevant     3
+5           Stress_Response     1
+
+Mitochondrial/OXPHOS candidates: 47
+Proliferation candidates: 3
+Epithelial/tumor-associated candidates: 4
+Stress-response candidates: 1
+Housekeeping candidates: 0
+Candidates requiring biological review: 1
+
+Significant mitochondrial/energy GO-BP terms: 14
+
+Interpretation:
+The robust 3-sample candidate set contains a
+strong mitochondrial/oxidative-phosphorylation
+biological signal based on GO enrichment.
+
+This represents an association and does not
+establish a cancer-specific mechanism.
+
+Mitochondrial/metabolic candidates should be
+considered separately from epithelial/tumor
+associated candidates during final biomarker
+selection.
+
+Stress and housekeeping genes are retained
+for transparency but flagged for biological
+review.
+
+All classifications are research annotations
+and are not clinical diagnostic classifications.

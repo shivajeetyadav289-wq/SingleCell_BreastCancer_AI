@@ -1,0 +1,50 @@
+INTEGRATED MALIGNANT BIOMARKER PRIORITIZATION SUMMARY
+====================================================
+
+Step 21 prioritized candidates: 986
+Step 22 high-priority genes: 162
+Step 22 robust 3-sample genes: 626
+Pathway-supported candidates: 417
+Epithelial/tumor-relevant candidates: 4
+Mitochondrial/OXPHOS candidates: 47
+Proliferation candidates: 3
+Stress-response candidates: 1
+Biological-review candidates: 7
+
+Final tier distribution:
+                      final_tier genes
+1      Tier_3_Exploratory_Robust   399
+2    Tier_3_Moderate_Consistency   279
+3             Tier_4_Exploratory   207
+4 Tier_2_Strong_Robust_Candidate    90
+5       Tier_4_Biological_Review     7
+6   Tier_1_Strong_Tumor_Relevant     4
+
+Biological category distribution:
+  final_biological_category genes
+1           Other_Candidate   931
+2   Mitochondrial_Metabolic    47
+3 Epithelial_Tumor_Relevant     4
+4    Proliferation_Relevant     3
+5           Stress_Response     1
+
+Interpretation:
+The integrated ranking combines existing Step 21
+biomarker scores with sample consistency and
+Step 23 biological annotations and Step 22
+pathway support.
+
+Pathway support is treated as biological evidence
+rather than proof of biomarker specificity.
+
+Mitochondrial/OXPHOS-associated genes are retained
+as biologically relevant candidates but are not
+automatically promoted above epithelial/tumor
+relevant candidates.
+
+Candidates requiring biological review are
+penalized in the integrated score and retained
+for transparency.
+
+All rankings are research prioritization results
+and are not validated clinical biomarkers.

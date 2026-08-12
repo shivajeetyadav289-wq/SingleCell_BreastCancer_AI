@@ -1,0 +1,61 @@
+FINAL CANDIDATE BIOLOGICAL REVIEW SUMMARY
+=========================================
+
+Step 24 input candidates: 50 
+Strong 3-sample candidates: 49 
+Tumor/epithelial candidates: 2 
+Mitochondrial/OXPHOS candidates: 21 
+Proliferation candidates: 0 
+Stress-response candidates: 1 
+Biological-review candidates: 0 
+
+FINAL RESEARCH PANEL
+--------------------
+ final_panel_rank    gene   final_review_class final_integrated_score
+                1 CHCHD10 Mitochondrial_OXPHOS              0.7575550
+                2  PRSS23     Tumor_Epithelial              0.7311772
+                3   FCGRT     Tumor_Epithelial              0.7279717
+                4 NDUFAB1 Mitochondrial_OXPHOS              0.7106501
+                5 ATP5MC3 Mitochondrial_OXPHOS              0.7092403
+                6   COX7B Mitochondrial_OXPHOS              0.7052877
+                7 ATP5F1A Mitochondrial_OXPHOS              0.7014948
+                8   COX8A Mitochondrial_OXPHOS              0.6997136
+                9  ATP5PD Mitochondrial_OXPHOS              0.6910664
+               10   COX5B Mitochondrial_OXPHOS              0.6899921
+               11  NDUFB7 Mitochondrial_OXPHOS              0.6896249
+               12    ETFB Mitochondrial_OXPHOS              0.6876976
+ avg_log2FC pct.1 mean_sample_prevalence consistency_category
+  1.9822385 0.818              0.8105581    Consistent_3_of_3
+  1.5764075 0.739              0.7584107    Consistent_3_of_3
+  1.4618398 0.708              0.7235252    Consistent_3_of_3
+  0.9530342 0.920              0.9176499    Consistent_3_of_3
+  1.1354276 0.963              0.9620208    Consistent_3_of_3
+  1.1390992 0.957              0.9554563    Consistent_3_of_3
+  1.7870575 0.789              0.7721521    Consistent_3_of_3
+  1.0635670 0.981              0.9821625    Consistent_3_of_3
+  0.8657547 0.930              0.9318793    Consistent_3_of_3
+  0.8964063 0.986              0.9862267    Consistent_3_of_3
+  0.7422423 0.931              0.9315204    Consistent_3_of_3
+  1.3851815 0.651              0.6436166    Consistent_3_of_3
+
+
+BIOLOGICAL CATEGORY DISTRIBUTION
+---------------------------------
+             category genes
+ Mitochondrial_OXPHOS    21
+      Other_Candidate    25
+      Stress_Response     1
+     Tumor_Epithelial     3
+
+
+INTERPRETATION
+--------------
+The final panel is a research-oriented shortlist  derived from integrated biomarker prioritization.
+
+Tumor/epithelial candidates are prioritized  separately from mitochondrial/OXPHOS candidates  to avoid interpreting broad metabolic programs  as tumor-specific biomarkers.
+
+Mitochondrial and stress-response genes are retained  as biologically informative candidates but should  not automatically be interpreted as cancer-specific.
+
+Candidates requiring biological review are retained  for transparency and require additional validation.
+
+All classifications are research annotations and  are not clinical diagnostic classifications.

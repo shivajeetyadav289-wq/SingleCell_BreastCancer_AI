@@ -1,0 +1,29 @@
+====================================================
+STEP 27 EXTERNAL EXPRESSION VALIDATION SUMMARY
+====================================================
+
+Step 25 candidates: 50
+Candidates present in GSE176078: 47
+Candidates absent: 3
+Cancer epithelial cells: 24489
+External cancer epithelial samples: 20
+
+Externally expressed candidates: 3
+Strong external expression support: 44
+
+Strong external expression support criteria:
+Expression prevalence >= 25% in cancer epithelial cells
+AND expression prevalence >= 25% in at least 3 samples
+
+Interpretation:
+External expression support indicates reproducible
+expression in an independent breast-cancer dataset.
+It does not establish clinical biomarker validity.
+It does not establish causality or diagnostic utility.
+
+The external dataset is used as an independent
+biological/expression validation resource.
+
+====================================================
+STEP 27 COMPLETED
+====================================================

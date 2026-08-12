@@ -1,0 +1,5 @@
+"gene","high_priority","robust_3sample","biological_class","final_biological_category"
+"PRSS23",TRUE,TRUE,"Epithelial_TumorAssociated","Epithelial_Tumor_Relevant"
+"EPN3",TRUE,TRUE,"Epithelial_TumorAssociated","Epithelial_Tumor_Relevant"
+"FCGRT",TRUE,TRUE,"Epithelial_TumorAssociated","Epithelial_Tumor_Relevant"
+"ESR1",TRUE,TRUE,"Epithelial_TumorAssociated","Epithelial_Tumor_Relevant"

@@ -1,0 +1,26 @@
+SAMPLE-SPECIFIC CNV VALIDATION
+==============================
+
+Samples evaluated:
+BC11, BC12, BC17
+
+BC11 aneuploid cells: 278
+BC12 aneuploid cells: 380
+BC17 aneuploid cells: 359
+
+CNV profile correlation:
+       BC11  BC12   BC17
+BC11  1.000 0.011 -0.071
+BC12  0.011 1.000  0.246
+BC17 -0.071 0.246  1.000
+
+Interpretation:
+Sample-specific CNV profiles were calculated
+from CopyKAT-predicted aneuploid cells.
+Similarity between samples should be evaluated
+using the chromosome-level profiles and heatmap.
+Consistent CNV architecture strengthens
+CNV-supported malignant-cell interpretation.
+Different architectures may indicate
+distinct malignant subpopulations.
+These are research annotations, not clinical calls.

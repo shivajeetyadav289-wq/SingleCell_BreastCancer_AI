@@ -1,0 +1,18 @@
+MALIGNANT CANDIDATE VALIDATION SUMMARY
+======================================
+
+Total CopyKAT predictions: 3995
+Aneuploid: 1019
+Diploid: 2362
+Not defined: 614
+
+Integrated malignant candidates: 1019
+
+Important observations:
+CopyKAT aneuploidy is interpreted as CNV evidence.
+Aneuploid cells are not automatically considered malignant.
+Epithelial and tumor-candidate evidence must support
+the malignant-cell interpretation.
+
+Sample-specific aneuploidity must be investigated
+before final malignant-cell labeling.

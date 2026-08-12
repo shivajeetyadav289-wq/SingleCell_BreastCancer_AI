@@ -1,0 +1,4 @@
+"gene","high_priority","robust_3sample","biological_class","final_biological_category"
+"STMN1",FALSE,TRUE,"Proliferation_CellCycle","Proliferation_Relevant"
+"CDK4",FALSE,TRUE,"Proliferation_CellCycle","Proliferation_Relevant"
+"PCNA",FALSE,TRUE,"Proliferation_CellCycle","Proliferation_Relevant"

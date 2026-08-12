@@ -1,0 +1,37 @@
+MALIGNANT PATHWAY ENRICHMENT SUMMARY
+====================================
+
+High-priority genes: 162
+High-priority genes mapped to Entrez: 159
+
+Robust 3-sample genes: 626
+Robust genes mapped to Entrez: 617
+
+GO Biological Process:
+High-priority significant terms: 0
+Robust significant terms: 28
+
+GO Molecular Function:
+High-priority significant terms: 0
+Robust significant terms: 11
+
+GO Cellular Component:
+High-priority significant terms: 0
+Robust significant terms: 26
+
+Shared significant GO-BP terms: 0
+
+ReactomePA available: FALSE
+
+Interpretation:
+Pathway enrichment identifies biological
+processes associated with prioritized
+malignant-cell candidates.
+
+Enrichment does not establish causality
+and does not constitute clinical validation.
+
+The robust 3-sample gene set is particularly
+important because these candidates show
+expression prevalence across BC11, BC12
+and BC17.

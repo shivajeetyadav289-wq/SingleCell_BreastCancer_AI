@@ -1,0 +1,32 @@
+CNV PROFILE VALIDATION SUMMARY
+==============================
+
+Total CopyKAT CNV profiles: 3381
+Genomic regions analyzed: 11560
+Aneuploid CNV profiles: 1019
+Diploid CNV profiles: 2362
+
+Samples with substantial CopyKAT aneuploid populations:
+BC11, BC12, BC17
+
+Sample-level CNV summary:
+  sample_id mean_abs_CNV median_abs_CNV positive_CNV_fraction
+1      BC06   0.02878394     0.02102514           0.020588235
+2      BC11   0.04094595     0.01967289           0.020674740
+3      BC12   0.04609149     0.03746651           0.028460208
+4      BC17   0.03607429     0.02826773           0.003287197
+  negative_CNV_fraction high_CNV_signal
+1            0.00000000           FALSE
+2            0.08347751            TRUE
+3            0.06167820            TRUE
+4            0.03832180            TRUE
+
+Interpretation:
+CopyKAT aneuploidy provides CNV-based evidence.
+Coherent chromosome-scale CNV patterns strengthen
+the interpretation of aneuploid epithelial cells
+as malignant-cell candidates.
+CNV evidence is integrated with epithelial and
+tumor-candidate identity.
+These classifications are research annotations
+and are not clinical diagnostic calls.

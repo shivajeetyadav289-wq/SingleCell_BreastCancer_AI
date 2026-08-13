@@ -34,7 +34,7 @@ The workflow integrates:
 - Tumor/cell-type specificity analysis
 - Multi-layer evidence integration
 <p align="center">
-  <img src=" https://github.com/shivajeetyadav289-wq/SingleCell_BreastCancer_AI/blob/f74fcfe1bcdd03d568eb4e2221ea8e99c7d38451/figures/flowchartt.png" alt="Single-Cell Breast Cancer Biomarker Discovery Workflow" width="100%">
+  <img src=" https://github.com/shivajeetyadav289-wq/SingleCell_BreastCancer_AI/blob/f74fcfe1bcdd03d568eb4e2221ea8e99c7d38451/figures/flowchartt.png" alt="flowchart" width="100%">
 </p>
 The analysis progressively reduced the candidate search space:
 

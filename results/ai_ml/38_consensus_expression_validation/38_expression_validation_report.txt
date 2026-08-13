@@ -1,0 +1,36 @@
+STEP 38 - CONSENSUS CANDIDATE EXPRESSION VALIDATION
+======================================================================
+
+Purpose:
+Validate the six Bioinformatics-ML consensus genes using actual single-cell expression data.
+
+Informative samples:
+- BC11
+- BC12
+- BC17
+
+Consensus genes:
+- COX8A
+- EPN3
+- ETFB
+- FCGRT
+- MRPS7
+- PRSS23
+
+
+RANKED EXPRESSION VALIDATION
+----------------------------------------------------------------------
+1. MRPS7 | Mean log2FC=2.6423 | Positive samples=3/3 | Consistency=Consistent_positive_expression | Score=0.9613
+2. PRSS23 | Mean log2FC=2.9865 | Positive samples=3/3 | Consistency=Consistent_positive_expression | Score=0.9535
+3. ETFB | Mean log2FC=2.3724 | Positive samples=3/3 | Consistency=Consistent_positive_expression | Score=0.8853
+4. FCGRT | Mean log2FC=2.1192 | Positive samples=3/3 | Consistency=Consistent_positive_expression | Score=0.8243
+5. COX8A | Mean log2FC=0.7162 | Positive samples=3/3 | Consistency=Consistent_positive_expression | Score=0.6632
+6. EPN3 | Mean log2FC=0.3208 | Positive samples=2/3 | Consistency=Mostly_positive_expression | Score=0.3333
+
+
+IMPORTANT LIMITATIONS
+----------------------------------------------------------------------
+1. Only three informative samples were available.
+2. Expression was evaluated using the existing malignant and diploid_non_malignant labels.
+3. The expression validation score is exploratory.
+4. This analysis does not establish clinical biomarker validity.

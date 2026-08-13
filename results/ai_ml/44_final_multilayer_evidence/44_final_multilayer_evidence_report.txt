@@ -1,0 +1,79 @@
+STEP 44 - FINAL MULTI-LAYER EVIDENCE INTEGRATION
+======================================================================
+
+Purpose:
+Integrate bioinformatics, machine-learning, discovery expression, external validation, and tumor-specificity evidence for the final six candidate genes.
+
+IMPORTANT:
+The final score is an exploratory computational evidence score and is NOT a clinical biomarker score or probability of clinical validity.
+
+FINAL CANDIDATES
+----------------------------------------------------------------------
+
+1. MRPS7
+Final multi-layer score: 100/100
+Evidence layers: 5/5
+Bioinformatics: True
+ML 3/3: True
+Discovery expression: True
+External validation: True
+Tumor association: True
+Final classification: High-priority integrated candidate
+
+2. PRSS23
+Final multi-layer score: 100/100
+Evidence layers: 5/5
+Bioinformatics: True
+ML 3/3: True
+Discovery expression: True
+External validation: True
+Tumor association: True
+Final classification: High-priority integrated candidate
+
+3. ETFB
+Final multi-layer score: 100/100
+Evidence layers: 5/5
+Bioinformatics: True
+ML 3/3: True
+Discovery expression: True
+External validation: True
+Tumor association: True
+Final classification: High-priority integrated candidate
+
+4. FCGRT
+Final multi-layer score: 100/100
+Evidence layers: 5/5
+Bioinformatics: True
+ML 3/3: True
+Discovery expression: True
+External validation: True
+Tumor association: True
+Final classification: High-priority integrated candidate
+
+5. COX8A
+Final multi-layer score: 80/100
+Evidence layers: 4/5
+Bioinformatics: True
+ML 3/3: True
+Discovery expression: True
+External validation: True
+Tumor association: False
+Final classification: High-priority integrated candidate
+Additional note: Highly expressed but relatively broad expression; lower tumor specificity
+
+6. EPN3
+Final multi-layer score: 40/100
+Evidence layers: 2/5
+Bioinformatics: True
+ML 3/3: True
+Discovery expression: False
+External validation: False
+Tumor association: False
+Final classification: Moderate integrated candidate
+Additional note: Weaker external/sample consistency; requires further validation
+
+
+LIMITATIONS
+----------------------------------------------------------------------
+These results represent computational and single-cell evidence. They do not establish clinical diagnostic, prognostic, therapeutic, or causal validity.
+Experimental validation would be required before clinical interpretation.

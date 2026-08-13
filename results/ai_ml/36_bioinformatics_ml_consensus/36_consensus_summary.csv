@@ -1,0 +1,10 @@
+category,gene_count
+Final_50,50
+ML_3_of_3,80
+ML_2_or_more_of_3,469
+ML_1_of_3,482
+Final50_and_ML_3_of_3,6
+Final50_and_ML_exactly_2_of_3,33
+Final50_and_ML_1_of_3,9
+ML_3_of_3_only,74
+ML_2_or_more_of_3_only,430

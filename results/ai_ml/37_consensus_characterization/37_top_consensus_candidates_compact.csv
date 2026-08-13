@@ -1,0 +1,7 @@
+consensus_rank,gene,exploratory_consensus_score,ML_folds_selected,ML_recurrence,external_expression_prevalence,external_mean_expression,external_support,biological_category
+1,PRSS23,1.0,3,3/3,,,Not_available,Consistent_3_of_3
+2,FCGRT,0.9935064935064936,3,3/3,,,Not_available,Consistent_3_of_3
+3,ETFB,0.9253246753246753,3,3/3,,,Not_available,Consistent_3_of_3
+4,COX8A,0.9210236321316806,3,3/3,0.850381804075299,5.87639348278819,Strong_external_support,Consistent_3_of_3
+5,EPN3,0.8701298701298702,3,3/3,,,Not_available,Consistent_3_of_3
+6,MRPS7,0.7142857142857143,3,3/3,,,Not_available,Consistent_3_of_3

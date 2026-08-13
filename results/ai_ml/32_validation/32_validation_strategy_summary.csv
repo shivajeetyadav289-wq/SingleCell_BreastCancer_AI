@@ -1,0 +1,6 @@
+metric,value
+total_cells,3379
+total_samples,9
+malignant_cells,1017
+diploid_cells,2362
+informative_samples,3

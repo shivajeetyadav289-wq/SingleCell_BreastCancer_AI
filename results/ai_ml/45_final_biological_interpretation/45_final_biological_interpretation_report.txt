@@ -1,0 +1,70 @@
+STEP 45 - FINAL BIOLOGICAL INTERPRETATION
+======================================================================
+
+Purpose:
+Interpret the final six candidate genes using integrated bioinformatics, ML, discovery expression, external validation, and tumor-association evidence.
+
+FINAL CANDIDATE PANEL
+----------------------------------------------------------------------
+
+Rank 1: MRPS7
+Multi-layer score: 100/100
+Evidence layers: 5/5
+Final tier: Tier_1_High_priority_candidate
+Biological interpretation: Mitochondrial/ribosomal candidate; shows strong malignant enrichment and consistent sample-level expression.
+Research interpretation: Strong computationally supported research candidate
+Evidence convergence: bioinformatics + ML_recurrence + discovery_expression + external_validation + tumor_association
+
+Rank 2: PRSS23
+Multi-layer score: 100/100
+Evidence layers: 5/5
+Final tier: Tier_1_High_priority_candidate
+Biological interpretation: Epithelial/tumor-associated candidate; supported by recurrent ML selection and consistent malignant enrichment.
+Research interpretation: Strong computationally supported research candidate
+Evidence convergence: bioinformatics + ML_recurrence + discovery_expression + external_validation + tumor_association
+
+Rank 3: ETFB
+Multi-layer score: 100/100
+Evidence layers: 5/5
+Final tier: Tier_1_High_priority_candidate
+Biological interpretation: Mitochondrial/metabolic candidate; shows recurrent ML support and consistent malignant enrichment.
+Research interpretation: Strong computationally supported research candidate
+Evidence convergence: bioinformatics + ML_recurrence + discovery_expression + external_validation + tumor_association
+
+Rank 4: FCGRT
+Multi-layer score: 100/100
+Evidence layers: 5/5
+Final tier: Tier_1_High_priority_candidate
+Biological interpretation: Epithelial/tumor-associated candidate; shows consistent malignant-cell enrichment across informative samples.
+Research interpretation: Strong computationally supported research candidate
+Evidence convergence: bioinformatics + ML_recurrence + discovery_expression + external_validation + tumor_association
+
+Rank 5: COX8A
+Multi-layer score: 80/100
+Evidence layers: 4/5
+Final tier: Tier_1_High_priority_candidate
+Biological interpretation: Mitochondrial/OXPHOS-associated candidate; highly expressed in malignant cells but also highly prevalent in diploid cells, indicating lower tumor specificity.
+Research interpretation: Strongly supported expression candidate but lower tumor specificity
+Evidence convergence: bioinformatics + ML_recurrence + discovery_expression + external_validation
+
+Rank 6: EPN3
+Multi-layer score: 40/100
+Evidence layers: 2/5
+Final tier: Tier_3_Candidate_requiring_validation
+Biological interpretation: Epithelial-associated candidate; shows strong malignant-vs-diploid expression difference but requires additional validation because of weaker consistency.
+Research interpretation: Promising candidate requiring additional validation
+Evidence convergence: bioinformatics + ML_recurrence
+
+
+KEY BIOLOGICAL CONCLUSIONS
+----------------------------------------------------------------------
+
+PRSS23, FCGRT, ETFB and MRPS7 represent the strongest tumor-associated research candidates based on the evidence generated in this project.
+
+EPN3 remains a promising candidate but requires additional validation because its consistency was weaker than the strongest candidates.
+
+COX8A shows strong expression and computational support but relatively lower tumor specificity because it is also highly detected in diploid cells.
+
+IMPORTANT LIMITATION:
+These findings represent computational and single-cell research evidence. They do not establish clinical diagnostic, prognostic, therapeutic, or causal validity.
+Experimental validation is required before clinical interpretation.

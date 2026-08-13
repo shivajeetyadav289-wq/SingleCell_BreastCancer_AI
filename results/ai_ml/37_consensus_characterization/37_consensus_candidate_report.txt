@@ -1,0 +1,37 @@
+STEP 37 - CONSENSUS CANDIDATE CHARACTERIZATION
+======================================================================
+
+Purpose:
+Characterize the strongest genes supported by both bioinformatics prioritization and recurrent ML feature selection.
+
+Strong consensus candidates: 6
+
+IMPORTANT INTERPRETATION:
+The consensus score is exploratory and is NOT a statistical validation score or clinical biomarker score.
+
+RANKED CONSENSUS CANDIDATES
+----------------------------------------------------------------------
+1. PRSS23 | Score=1.0000 | ML=3/3 | External=Not_available
+2. FCGRT | Score=0.9935 | ML=3/3 | External=Not_available
+3. ETFB | Score=0.9253 | ML=3/3 | External=Not_available
+4. COX8A | Score=0.9210 | ML=3/3 | External=Strong_external_support
+5. EPN3 | Score=0.8701 | ML=3/3 | External=Not_available
+6. MRPS7 | Score=0.7143 | ML=3/3 | External=Not_available
+
+
+STRONG CONSENSUS GENES
+----------------------------------------------------------------------
+COX8A
+EPN3
+ETFB
+FCGRT
+MRPS7
+PRSS23
+
+
+METHOD LIMITATIONS
+----------------------------------------------------------------------
+1. Only three informative samples were available for LOPO validation.
+2. The ML model showed substantial inner-CV versus outer-LOPO performance differences.
+3. The consensus score is an exploratory ranking framework.
+4. Consensus candidates are not clinically validated biomarkers.

@@ -15,9 +15,11 @@ venv/
 # Raw / external datasets
 data/raw/
 data/external/
+data/processed/
 
 # Large bioinformatics files
 *.mtx
+*.mtx.gz
 *.h5
 *.h5ad
 *.rds

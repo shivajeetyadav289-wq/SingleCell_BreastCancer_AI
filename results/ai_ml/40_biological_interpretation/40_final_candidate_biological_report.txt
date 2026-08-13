@@ -1,0 +1,73 @@
+STEP 40 - FINAL BIOLOGICAL INTERPRETATION
+======================================================================
+
+FINAL CONSENSUS GENES
+----------------------------------------------------------------------
+
+Rank 1: PRSS23
+Biological class: Epithelial_TumorAssociated
+Final biological category: Epithelial_Tumor_Relevant
+Bioinformatics adjusted biomarker score: 0.7671
+ML recurrence: 3/3
+Mean malignant-vs-diploid log2FC: 2.9865
+Malignant detection: 75.84%
+Diploid detection: 26.08%
+Positive expression samples: 3/3
+Evidence layers: 4
+Final biological priority: Strong multi-layer candidate
+Interpretation: Epithelial/tumor-associated candidate with multi-layer support.
+
+Rank 2: FCGRT
+Biological class: Epithelial_TumorAssociated
+Final biological category: Epithelial_Tumor_Relevant
+Bioinformatics adjusted biomarker score: 0.7575
+ML recurrence: 3/3
+Mean malignant-vs-diploid log2FC: 2.1192
+Malignant detection: 72.35%
+Diploid detection: 28.14%
+Positive expression samples: 3/3
+Evidence layers: 4
+Final biological priority: Strong multi-layer candidate
+Interpretation: Epithelial/tumor-associated candidate with multi-layer support.
+
+Rank 3: ETFB
+Biological class: Mitochondrial_OXPHOS
+Final biological category: Mitochondrial_Metabolic
+Bioinformatics adjusted biomarker score: 0.7405
+ML recurrence: 3/3
+Mean malignant-vs-diploid log2FC: 2.3724
+Malignant detection: 64.36%
+Diploid detection: 14.45%
+Positive expression samples: 3/3
+Evidence layers: 4
+Final biological priority: Strong multi-layer candidate
+Interpretation: Mitochondrial/OXPHOS-associated candidate with multi-layer support.
+
+Rank 4: EPN3
+Biological class: Epithelial_TumorAssociated
+Final biological category: Epithelial_Tumor_Relevant
+Bioinformatics adjusted biomarker score: 0.7660
+ML recurrence: 3/3
+Mean malignant-vs-diploid log2FC: 0.3208
+Malignant detection: 45.55%
+Diploid detection: 22.76%
+Positive expression samples: 2/3
+Evidence layers: 2
+Final biological priority: Moderate candidate
+Interpretation: Epithelial/tumor-associated candidate with multi-layer support.
+
+
+PROJECT-LEVEL INTERPRETATION
+----------------------------------------------------------------------
+The final six genes represent a refined consensus candidate panel derived from the original bioinformatics candidate space and subsequently supported by machine-learning recurrence and single-cell expression validation.
+
+The candidates should be considered research biomarker candidates rather than clinically validated biomarkers.
+
+The strongest evidence is the convergence of independent computational layers rather than any single score.
+
+LIMITATIONS
+----------------------------------------------------------------------
+1. Only three informative patient samples were available for malignant-vs-diploid validation.
+2. LOPO machine-learning performance showed limited generalization.
+3. The integrated evidence score is exploratory.
+4. Independent external datasets and experimental validation are required.

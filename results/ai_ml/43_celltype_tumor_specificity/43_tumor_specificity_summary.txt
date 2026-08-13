@@ -1,0 +1,79 @@
+STEP 43 - CELL-TYPE / TUMOR-SPECIFICITY VALIDATION
+======================================================================
+
+Purpose:
+Determine whether the six consensus candidates are preferentially associated with malignant and tumor-epithelial cells.
+
+RESULTS
+----------------------------------------------------------------------
+
+Gene: ETFB
+Malignant detection: 65.09%
+Diploid detection: 21.46%
+Detection difference: 43.63 percentage points
+Malignant vs diploid log2FC: 1.5945
+Epithelial detection: 34.60%
+Malignant epithelial detection: 65.09%
+Sample consistency: 1.000
+Tumor specificity class: Tumor_associated
+Final interpretation: Tumor-associated candidate
+
+Gene: FCGRT
+Malignant detection: 70.80%
+Diploid detection: 29.17%
+Detection difference: 41.63 percentage points
+Malignant vs diploid log2FC: 1.5009
+Epithelial detection: 41.70%
+Malignant epithelial detection: 70.80%
+Sample consistency: 1.000
+Tumor specificity class: Tumor_associated
+Final interpretation: Tumor-associated candidate
+
+Gene: EPN3
+Malignant detection: 45.23%
+Diploid detection: 7.41%
+Detection difference: 37.82 percentage points
+Malignant vs diploid log2FC: 2.6687
+Epithelial detection: 18.79%
+Malignant epithelial detection: 45.23%
+Sample consistency: 0.667
+Tumor specificity class: Weak_tumor_association
+Final interpretation: Weak tumor association
+
+Gene: PRSS23
+Malignant detection: 73.94%
+Diploid detection: 37.85%
+Detection difference: 36.09 percentage points
+Malignant vs diploid log2FC: 1.3698
+Epithelial detection: 48.71%
+Malignant epithelial detection: 73.94%
+Sample consistency: 1.000
+Tumor specificity class: Tumor_associated
+Final interpretation: Tumor-associated candidate
+
+Gene: MRPS7
+Malignant detection: 74.53%
+Diploid detection: 39.20%
+Detection difference: 35.33 percentage points
+Malignant vs diploid log2FC: 1.0230
+Epithelial detection: 49.84%
+Malignant epithelial detection: 74.53%
+Sample consistency: 1.000
+Tumor specificity class: Tumor_associated
+Final interpretation: Tumor-associated candidate
+
+Gene: COX8A
+Malignant detection: 98.13%
+Diploid detection: 80.69%
+Detection difference: 17.44 percentage points
+Malignant vs diploid log2FC: 0.7113
+Epithelial detection: 85.94%
+Malignant epithelial detection: 98.13%
+Sample consistency: 1.000
+Tumor specificity class: Weak_tumor_association
+Final interpretation: Weak tumor association
+
+
+IMPORTANT LIMITATION
+----------------------------------------------------------------------
+Tumor-associated expression does not by itself establish diagnostic, prognostic, therapeutic, or clinical biomarker validity.

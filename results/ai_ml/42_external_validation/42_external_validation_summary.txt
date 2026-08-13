@@ -1,0 +1,83 @@
+STEP 42 - ML CONSENSUS EXTERNAL VALIDATION
+======================================================================
+
+External dataset: GSE176078
+Validation type: Existing external expression validation integration
+
+Final ML consensus genes:
+- COX8A
+- MRPS7
+- PRSS23
+- ETFB
+- FCGRT
+- EPN3
+
+RESULTS
+----------------------------------------------------------------------
+
+Gene: COX8A
+ML supported: True
+Bioinformatics supported: True
+Discovery expression supported: True
+External gene present: True
+External support category: Strong_external_expression_support
+External validation score: 2
+Evidence layers: 4
+Final classification: Strong multi-layer externally supported candidate
+
+Gene: MRPS7
+ML supported: True
+Bioinformatics supported: True
+Discovery expression supported: True
+External gene present: True
+External support category: Strong_external_expression_support
+External validation score: 2
+Evidence layers: 4
+Final classification: Strong multi-layer externally supported candidate
+
+Gene: PRSS23
+ML supported: True
+Bioinformatics supported: True
+Discovery expression supported: True
+External gene present: True
+External support category: Strong_external_expression_support
+External validation score: 2
+Evidence layers: 4
+Final classification: Strong multi-layer externally supported candidate
+
+Gene: ETFB
+ML supported: True
+Bioinformatics supported: True
+Discovery expression supported: True
+External gene present: True
+External support category: Strong_external_expression_support
+External validation score: 2
+Evidence layers: 4
+Final classification: Strong multi-layer externally supported candidate
+
+Gene: FCGRT
+ML supported: True
+Bioinformatics supported: True
+Discovery expression supported: True
+External gene present: True
+External support category: Strong_external_expression_support
+External validation score: 2
+Evidence layers: 4
+Final classification: Strong multi-layer externally supported candidate
+
+Gene: EPN3
+ML supported: True
+Bioinformatics supported: True
+Discovery expression supported: False
+External gene present: True
+External support category: External_gene_present_only
+External validation score: 1
+Evidence layers: 2
+Final classification: ML consensus - external presence only
+
+
+INTERPRETATION
+----------------------------------------------------------------------
+This analysis integrates the ML consensus panel with the previously completed GSE176078 external validation analysis.
+
+External expression support indicates reproducible expression in an independent breast-cancer dataset. It does not establish clinical biomarker validity, causality, diagnostic performance, or prognostic utility.

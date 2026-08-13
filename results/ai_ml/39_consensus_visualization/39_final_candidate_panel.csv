@@ -1,0 +1,7 @@
+final_evidence_rank,gene,biological_category,ML_folds_selected,mean_log2FC,mean_malignant_detection_pct,mean_diploid_detection_pct,mean_detection_difference_pct,samples_with_positive_log2FC,samples_tested,expression_consistency,external_support,final_evidence_category,overall_exploratory_evidence_score
+1,COX8A,Consistent_3_of_3,3,0.7162490005771919,98.21625414812556,54.56511839708562,43.65113575103995,3,3,Consistent_positive_expression,Strong_external_support,Moderate consensus candidate,0.8353674613976355
+2,MRPS7,Consistent_3_of_3,3,2.642346922005077,73.96890228617575,16.03483606557377,57.93406622060198,3,3,Consistent_positive_expression,Not_available,High-priority consensus candidate,0.7845083745122371
+3,PRSS23,Consistent_3_of_3,3,2.9864805098535983,75.84107234077861,26.075819672131143,49.76525266864746,3,3,Consistent_positive_expression,Not_available,High-priority consensus candidate,0.781405780748211
+4,ETFB,Consistent_3_of_3,3,2.3723677520759474,64.36166416522258,14.44672131147541,49.91494285374719,3,3,Consistent_positive_expression,Not_available,High-priority consensus candidate,0.7541014198028698
+5,FCGRT,Consistent_3_of_3,3,2.11922595042955,72.35252114977128,28.136384335154823,44.21613681461645,3,3,Consistent_positive_expression,Not_available,High-priority consensus candidate,0.7297340315612452
+6,EPN3,Consistent_3_of_3,3,0.3207802207236497,45.54574724621417,22.757285974499087,22.78846127171508,2,3,Mostly_positive_expression,Not_available,Candidate requiring further validation,0.5333333333333333

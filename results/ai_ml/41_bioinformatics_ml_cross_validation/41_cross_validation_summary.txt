@@ -1,0 +1,83 @@
+STEP 41 - BIOINFORMATICS–ML CROSS-VALIDATION
+======================================================================
+
+Purpose:
+Cross-check the final six consensus candidates against the original bioinformatics prioritization, ML recurrence, and single-cell expression validation.
+
+FINAL SIX GENES
+----------------------------------------------------------------------
+
+PRSS23
+Bioinformatics supported: True
+Present in final 50: True
+ML folds selected: 3
+ML consensus status: Strong_consensus
+Adjusted bioinformatics biomarker score: 0.767050935819276
+Expression mean log2FC: 2.9864805098535983
+Expression consistency: Consistent_positive_expression
+Evidence layers: 4
+Cross-validation classification: Strong cross-method agreement
+
+FCGRT
+Bioinformatics supported: True
+Present in final 50: True
+ML folds selected: 3
+ML consensus status: Strong_consensus
+Adjusted bioinformatics biomarker score: 0.757529975309625
+Expression mean log2FC: 2.11922595042955
+Expression consistency: Consistent_positive_expression
+Evidence layers: 4
+Cross-validation classification: Strong cross-method agreement
+
+ETFB
+Bioinformatics supported: True
+Present in final 50: True
+ML folds selected: 3
+ML consensus status: Strong_consensus
+Adjusted bioinformatics biomarker score: 0.740547687662161
+Expression mean log2FC: 2.3723677520759474
+Expression consistency: Consistent_positive_expression
+Evidence layers: 4
+Cross-validation classification: Strong cross-method agreement
+
+EPN3
+Bioinformatics supported: True
+Present in final 50: True
+ML folds selected: 3
+ML consensus status: Strong_consensus
+Adjusted bioinformatics biomarker score: 0.766
+Expression mean log2FC: 0.3207802207236497
+Expression consistency: Mostly_positive_expression
+Evidence layers: 3
+Cross-validation classification: Moderate cross-method agreement
+
+COX8A
+Bioinformatics supported: False
+Present in final 50: True
+ML folds selected: 3
+ML consensus status: Strong_consensus
+Adjusted bioinformatics biomarker score: nan
+Expression mean log2FC: 0.7162490005771919
+Expression consistency: Consistent_positive_expression
+Evidence layers: 3
+Cross-validation classification: Moderate cross-method agreement
+
+MRPS7
+Bioinformatics supported: False
+Present in final 50: True
+ML folds selected: 3
+ML consensus status: Strong_consensus
+Adjusted bioinformatics biomarker score: nan
+Expression mean log2FC: 2.642346922005077
+Expression consistency: Consistent_positive_expression
+Evidence layers: 3
+Cross-validation classification: Moderate cross-method agreement
+
+
+PROJECT INTERPRETATION
+----------------------------------------------------------------------
+The cross-validation analysis evaluates whether the final consensus genes are supported by both the original bioinformatics prioritization and the machine-learning analysis.
+
+The analysis does not establish clinical biomarker validity. The results represent computational and single-cell evidence supporting research candidates.
+
+The strongest candidates are those for which bioinformatics prioritization, ML recurrence, and malignant-associated expression converge.

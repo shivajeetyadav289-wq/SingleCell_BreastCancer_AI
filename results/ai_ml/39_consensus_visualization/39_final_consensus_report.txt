@@ -1,0 +1,82 @@
+STEP 39 - FINAL CONSENSUS CANDIDATE ANALYSIS
+======================================================================
+
+Purpose:
+Integrate bioinformatics prioritization, ML recurrence, single-cell expression validation, and external evidence for the six consensus candidate genes.
+
+FINAL CANDIDATE PANEL
+----------------------------------------------------------------------
+Rank 1: COX8A
+  Biological category: Consistent_3_of_3
+  ML recurrence: 3/3
+  Mean log2FC: 0.716
+  Malignant detection: 98.22%
+  Diploid detection: 54.57%
+  Detection difference: 43.65%
+  Expression consistency: Consistent_positive_expression
+  Final evidence category: Moderate consensus candidate
+
+Rank 2: MRPS7
+  Biological category: Consistent_3_of_3
+  ML recurrence: 3/3
+  Mean log2FC: 2.642
+  Malignant detection: 73.97%
+  Diploid detection: 16.03%
+  Detection difference: 57.93%
+  Expression consistency: Consistent_positive_expression
+  Final evidence category: High-priority consensus candidate
+
+Rank 3: PRSS23
+  Biological category: Consistent_3_of_3
+  ML recurrence: 3/3
+  Mean log2FC: 2.986
+  Malignant detection: 75.84%
+  Diploid detection: 26.08%
+  Detection difference: 49.77%
+  Expression consistency: Consistent_positive_expression
+  Final evidence category: High-priority consensus candidate
+
+Rank 4: ETFB
+  Biological category: Consistent_3_of_3
+  ML recurrence: 3/3
+  Mean log2FC: 2.372
+  Malignant detection: 64.36%
+  Diploid detection: 14.45%
+  Detection difference: 49.91%
+  Expression consistency: Consistent_positive_expression
+  Final evidence category: High-priority consensus candidate
+
+Rank 5: FCGRT
+  Biological category: Consistent_3_of_3
+  ML recurrence: 3/3
+  Mean log2FC: 2.119
+  Malignant detection: 72.35%
+  Diploid detection: 28.14%
+  Detection difference: 44.22%
+  Expression consistency: Consistent_positive_expression
+  Final evidence category: High-priority consensus candidate
+
+Rank 6: EPN3
+  Biological category: Consistent_3_of_3
+  ML recurrence: 3/3
+  Mean log2FC: 0.321
+  Malignant detection: 45.55%
+  Diploid detection: 22.76%
+  Detection difference: 22.79%
+  Expression consistency: Mostly_positive_expression
+  Final evidence category: Candidate requiring further validation
+
+
+INTERPRETATION
+----------------------------------------------------------------------
+The final six genes represent consensus candidates supported by multiple computational evidence layers. They should not be described as clinically validated biomarkers.
+
+The strongest evidence comes from the combination of bioinformatics prioritization, recurrent ML feature selection, and consistent malignant-associated expression across the available informative samples.
+
+LIMITATIONS
+----------------------------------------------------------------------
+1. Only three informative patient samples were available.
+2. LOPO performance was limited in previous ML analyses.
+3. External validation was not available for every candidate.
+4. The integrated evidence score is exploratory.
+5. Independent datasets and experimental validation are required before clinical biomarker claims.

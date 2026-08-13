@@ -1,0 +1,4 @@
+test_sample,training_samples,n_training_samples
+BC11,BC12;BC17,2
+BC12,BC11;BC17,2
+BC17,BC11;BC12,2

@@ -5,7 +5,9 @@
 **A sample-aware computational workflow integrating single-cell RNA-seq bioinformatics, machine learning, external validation, and tumor-specificity analysis for breast cancer biomarker candidate prioritization**
 
 </p>
-
+<p align="center">
+  <img src="https://github.com/shivajeetyadav289-wq/SingleCell_BreastCancer_AI/blob/e7095cdd894ce816607e7d0f24e7b2956670876e/figures/banner.png" alt="Banner" width="100%">
+</p>
 ---
 
 ## Overview
@@ -31,7 +33,9 @@ The workflow integrates:
 - External validation using GSE176078
 - Tumor/cell-type specificity analysis
 - Multi-layer evidence integration
-
+<p align="center">
+  <img src=" https://github.com/shivajeetyadav289-wq/SingleCell_BreastCancer_AI/blob/f74fcfe1bcdd03d568eb4e2221ea8e99c7d38451/figures/flowchartt.png" alt="Single-Cell Breast Cancer Biomarker Discovery Workflow" width="100%">
+</p>
 The analysis progressively reduced the candidate search space:
 
 ```text

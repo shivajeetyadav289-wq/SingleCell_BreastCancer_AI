@@ -45,6 +45,7 @@ The analysis progressively reduced the candidate search space:
       ↓
 6 consensus candidates
 
+
 Final Consensus Candidates
 
 COX8A, EPN3, ETFB, FCGRT, MRPS7 and PRSS23
@@ -70,6 +71,7 @@ External validation
 Tumor specificity
         ↓
 Final candidate prioritization
+
 Objectives
 Primary Objective
 
@@ -90,6 +92,7 @@ Perform external validation using GSE176078.
 Evaluate tumor/cell-type specificity.
 Integrate multiple evidence layers into a final candidate panel.
 Interpret the candidates while explicitly documenting limitations.
+
 Dataset
 Discovery Dataset
 
@@ -99,15 +102,14 @@ GSE228499
 
 The processed single-cell object contained:
 
-Property	Value
-Cells	24,575
-Genes	36,626
-Samples	9
-Assay	RNA
-Seurat	5.5.1
-Assay class	Assay5
-
-Samples:
+| Property    |  Value |
+| ----------- | -----: |
+| Cells       | 24,575 |
+| Genes       | 36,626 |
+| Samples     |      9 |
+| Assay       |    RNA |
+| Seurat      |  5.5.1 |
+| Assay class | Assay5 |
 
 BC03
 BC05
@@ -118,6 +120,7 @@ BC12
 BC14
 BC15
 BC17
+
 External Validation Dataset
 
 An independent dataset was used for external validation:
@@ -139,18 +142,20 @@ The machine-learning analysis subsequently focused on cells with defined ML labe
 
 The final ML dataset contained:
 
-ML Class	Cells
-Malignant	1,017
-Diploid/non-malignant	2,362
-Total	3,379
+| ML Class              |     Cells |
+| --------------------- | --------: |
+| Malignant             |     1,017 |
+| Diploid/non-malignant |     2,362 |
+| **Total**             | **3,379** |
+
 Informative Samples
 
 Only three samples contained malignant cells:
-
-Sample	Malignant	Diploid/non-malignant	Total
-BC11	278	183	461
-BC12	380	32	412
-BC17	359	2	361
+| Sample | Malignant | Diploid/non-malignant | Total |
+| ------ | --------: | --------------------: | ----: |
+| BC11   |       278 |                   183 |   461 |
+| BC12   |       380 |                    32 |   412 |
+| BC17   |       359 |                     2 |   361 |
 
 Therefore, the primary sample-aware machine-learning validation was performed across:
 
@@ -159,9 +164,6 @@ BC12
 BC17
 
 Limitation: The limited number of informative samples is an important limitation of the study.
-
-Workflow
-Major Workflow
 GSE228499
     ↓
 Single-cell processing
@@ -224,10 +226,11 @@ Expression Feature Filtering
 
 Expression-based feature filtering was performed before machine learning.
 
-Stage	Genes
-Original genes	36,626
-Expression-filtered genes	13,732
-Removed	22,894
+| Stage                     |  Genes |
+| ------------------------- | -----: |
+| Original genes            | 36,626 |
+| Expression-filtered genes | 13,732 |
+| Removed                   | 22,894 |
 
 Filtering criteria:
 
@@ -284,35 +287,15 @@ This is more appropriate for evaluating sample-level generalization than a simpl
 
 The initial 50-gene model produced the following mean LOPO performance:
 
-Metric	Mean
-ROC-AUC	0.824
-PR-AUC	0.902
-Accuracy	0.325
-Precision	0.913
-Recall	0.274
-Specificity	0.909
-F1	0.368
-
-The results showed useful ranking performance but relatively low recall and F1.
-
-Therefore, the model was not treated as a clinically useful classifier.
-
-Instead, the ML analysis was used as an additional feature-prioritization and recurrence layer.
-
-986-Gene Machine Learning Analysis
-
-The broader 986-gene feature set was also evaluated.
-
-Mean LOPO performance:
-
-Metric	Mean
-ROC-AUC	0.241
-PR-AUC	0.765
-Accuracy	0.160
-Precision	0.000
-Recall	0.000
-Specificity	1.000
-F1	0.000
+| Metric      |  Mean |
+| ----------- | ----: |
+| ROC-AUC     | 0.241 |
+| PR-AUC      | 0.765 |
+| Accuracy    | 0.160 |
+| Precision   | 0.000 |
+| Recall      | 0.000 |
+| Specificity | 1.000 |
+| F1          | 0.000 |
 
 This result demonstrated that increasing the number of candidate features did not automatically improve sample-level generalization.
 
@@ -330,14 +313,14 @@ The inner validation results were very high.
 However, outer-sample performance was substantially weaker.
 
 Mean outer LOPO performance:
-
-Metric	Mean
-ROC-AUC	0.437
-PR-AUC	0.882
-Accuracy	0.167
-Recall	0.009
-Specificity	1.000
-F1	0.017
+| Metric      |  Mean |
+| ----------- | ----: |
+| ROC-AUC     | 0.437 |
+| PR-AUC      | 0.882 |
+| Accuracy    | 0.167 |
+| Recall      | 0.009 |
+| Specificity | 1.000 |
+| F1          | 0.017 |
 
 The selected feature size was:
 
@@ -350,14 +333,14 @@ It demonstrates why sample-aware validation is essential when working with singl
 ML Consensus Analysis
 
 Genes were evaluated for recurrence across the three informative LOPO folds.
-
-Category	Number of Genes
-Final bioinformatics panel	50
-ML-selected in all 3 folds	80
-ML-selected in ≥2 folds	469
-Strong consensus	6
-Moderate consensus	33
-Broad consensus	39
+| Category                   | Number of Genes |
+| -------------------------- | --------------: |
+| Final bioinformatics panel |              50 |
+| ML-selected in all 3 folds |              80 |
+| ML-selected in ≥2 folds    |             469 |
+| Strong consensus           |               6 |
+| Moderate consensus         |              33 |
+| Broad consensus            |              39 |
 
 The six strong consensus genes were:
 
@@ -370,49 +353,42 @@ PRSS23
 
 These six genes were present in the final bioinformatics candidate panel and were repeatedly selected during the ML analysis.
 
-Final Six Consensus Candidates
-Gene	Interpretation
-PRSS23	Strong tumor-associated research candidate
-FCGRT	Strong tumor-associated research candidate
-ETFB	Strong mitochondrial/metabolic research candidate
-MRPS7	Strong mitochondrial/ribosomal research candidate
-EPN3	Promising candidate requiring further validation
-COX8A	Strong expression candidate with lower tumor specificity
+| Gene       | Interpretation                                           |
+| ---------- | -------------------------------------------------------- |
+| **PRSS23** | Strong tumor-associated research candidate               |
+| **FCGRT**  | Strong tumor-associated research candidate               |
+| **ETFB**   | Strong mitochondrial/metabolic research candidate        |
+| **MRPS7**  | Strong mitochondrial/ribosomal research candidate        |
+| **EPN3**   | Promising candidate requiring further validation         |
+| **COX8A**  | Strong expression candidate with lower tumor specificity |
+
 Discovery Expression Validation
 
 The six consensus genes were evaluated across BC11, BC12 and BC17.
 
-Gene	Mean log2FC	Malignant Detection	Diploid Detection	Difference
-PRSS23	2.986	73.94%	37.85%	36.09 pp
-FCGRT	2.119	70.80%	29.17%	41.63 pp
-ETFB	2.372	65.09%	21.46%	43.63 pp
-MRPS7	2.642	74.53%	39.20%	35.33 pp
-COX8A	0.716	98.13%	80.69%	17.44 pp
-EPN3	0.321	45.23%	7.41%	37.82 pp
-Expression Validation Scores
-Gene	Expression Validation Score
-MRPS7	0.961
-PRSS23	0.954
-ETFB	0.885
-FCGRT	0.824
-COX8A	0.663
-EPN3	0.333
+| Gene   | Mean log2FC | Malignant Detection | Diploid Detection | Difference |
+| ------ | ----------: | ------------------: | ----------------: | ---------: |
+| PRSS23 |       2.986 |              73.94% |            37.85% |   36.09 pp |
+| FCGRT  |       2.119 |              70.80% |            29.17% |   41.63 pp |
+| ETFB   |       2.372 |              65.09% |            21.46% |   43.63 pp |
+| MRPS7  |       2.642 |              74.53% |            39.20% |   35.33 pp |
+| COX8A  |       0.716 |              98.13% |            80.69% |   17.44 pp |
+| EPN3   |       0.321 |              45.23% |             7.41% |   37.82 pp |
 
 MRPS7 and PRSS23 showed the strongest expression-validation scores.
 
 EPN3 showed weaker sample consistency.
-
 Tumor-Specificity Analysis
 
 The six consensus candidates were further evaluated for malignant/tumor association.
-
-Gene	Malignant Detection	Diploid Detection	Detection Difference	Interpretation
-PRSS23	73.94%	37.85%	36.09 pp	Tumor-associated
-FCGRT	70.80%	29.17%	41.63 pp	Tumor-associated
-ETFB	65.09%	21.46%	43.63 pp	Tumor-associated
-MRPS7	74.53%	39.20%	35.33 pp	Tumor-associated
-EPN3	45.23%	7.41%	37.82 pp	Weak association
-COX8A	98.13%	80.69%	17.44 pp	Lower tumor specificity
+| Gene   | Malignant Detection | Diploid Detection | Detection Difference | Interpretation          |
+| ------ | ------------------: | ----------------: | -------------------: | ----------------------- |
+| PRSS23 |              73.94% |            37.85% |             36.09 pp | Tumor-associated        |
+| FCGRT  |              70.80% |            29.17% |             41.63 pp | Tumor-associated        |
+| ETFB   |              65.09% |            21.46% |             43.63 pp | Tumor-associated        |
+| MRPS7  |              74.53% |            39.20% |             35.33 pp | Tumor-associated        |
+| EPN3   |              45.23% |             7.41% |             37.82 pp | Weak association        |
+| COX8A  |              98.13% |            80.69% |             17.44 pp | Lower tumor specificity |
 
 COX8A showed very high expression in malignant cells but was also highly detected in diploid cells, indicating lower tumor specificity.
 
@@ -433,11 +409,9 @@ Candidates without sufficient external evidence
 Candidates requiring further validation
 
 External validation does not establish clinical biomarker validity.
-
 Final Evidence Integration
 
 The final candidate assessment integrated multiple evidence layers:
-
 Bioinformatics support
         +
 ML recurrence
@@ -536,60 +510,16 @@ Strong computational evidence
 However, it was also highly detected in diploid cells.
 
 Interpretation: Strong expression candidate with lower tumor specificity
-
 Final Candidate Summary
-Gene	ML Recurrence	Tumor Association	Expression Evidence	Final Interpretation
-PRSS23	3/3	Strong	Strong	High-priority research candidate
-FCGRT	3/3	Strong	Strong	High-priority research candidate
-ETFB	3/3	Strong	Strong	High-priority metabolic candidate
-MRPS7	3/3	Strong	Strong	High-priority mitochondrial/ribosomal candidate
-EPN3	3/3	Weak/moderate	Less consistent	Requires further validation
-COX8A	3/3	Weak	Strong but broad	Lower tumor specificity
-Key Findings
-1. Progressive Candidate Reduction
 
-The workflow reduced the candidate space from:
-
-36,626 genes
-        ↓
-13,732 expression-filtered genes
-        ↓
-986 bioinformatics candidates
-        ↓
-50 final candidates
-        ↓
-6 consensus candidates
-2. Sample-Aware Validation Revealed Generalization Challenges
-
-The initial 50-gene model achieved:
-
-Mean ROC-AUC = 0.824
-Mean PR-AUC  = 0.902
-
-However, data-driven feature selection produced substantially weaker outer-sample performance.
-
-This demonstrates that:
-
-Strong internal validation does not necessarily translate into strong generalization to an unseen biological sample.
-
-3. ML Recurrence Provided an Additional Evidence Layer
-
-Rather than selecting genes from a single model fit, recurrent feature selection across independent sample folds was used.
-
-This identified six strong consensus genes.
-
-4. Tumor-Associated Evidence Differed Among Candidates
-
-The strongest tumor-associated candidates were:
-
-PRSS23
-FCGRT
-ETFB
-MRPS7
-
-EPN3 showed promising but less consistent tumor association.
-
-COX8A showed broad expression and therefore lower tumor specificity.
+| Gene       | ML Recurrence | Tumor Association | Expression Evidence | Final Interpretation                            |
+| ---------- | ------------- | ----------------- | ------------------- | ----------------------------------------------- |
+| **PRSS23** | 3/3           | Strong            | Strong              | High-priority research candidate                |
+| **FCGRT**  | 3/3           | Strong            | Strong              | High-priority research candidate                |
+| **ETFB**   | 3/3           | Strong            | Strong              | High-priority metabolic candidate               |
+| **MRPS7**  | 3/3           | Strong            | Strong              | High-priority mitochondrial/ribosomal candidate |
+| **EPN3**   | 3/3           | Weak/moderate     | Less consistent     | Requires further validation                     |
+| **COX8A**  | 3/3           | Weak              | Strong but broad    | Lower tumor specificity                         |
 
 Limitations
 Limited Number of Informative Samples
@@ -650,15 +580,18 @@ Programming
 Python
 R
 Bash/Linux
+
 Single-Cell Analysis
 Seurat
 Seurat v5
 Assay5
+
 Machine Learning
 scikit-learn
 Logistic Regression
 Feature Selection
 Leave-One-Sample-Out Validation
+
 Data Analysis
 pandas
 NumPy
@@ -666,6 +599,7 @@ SciPy
 Visualization
 Matplotlib
 Seaborn
+
 Bioinformatics
 Single-cell RNA-seq analysis
 CNV-supported malignant-cell analysis
@@ -673,3 +607,61 @@ Differential expression
 Candidate prioritization
 Biological annotation
 External validation
+
+Future Work
+
+Future extensions could include:
+
+Validation in larger independent single-cell datasets
+Validation using bulk breast cancer cohorts
+Survival/prognostic analysis
+Protein-level validation
+Spatial transcriptomics validation
+Functional pathway analysis
+qPCR validation
+Immunohistochemistry validation
+Functional experiments
+Evaluation of multi-gene biomarker panels
+Final Conclusion
+
+This study developed a sample-aware single-cell RNA-seq and machine-learning workflow for breast cancer biomarker candidate prioritization.
+
+By integrating:
+
+Bioinformatics candidate prioritization
+CNV-supported malignant-cell identification
+Expression filtering
+Logistic regression
+LOPO validation
+ML feature recurrence
+Discovery expression validation
+External validation using GSE176078
+Tumor-specificity analysis
+Biological interpretation
+
+the workflow identified six consensus candidate genes:
+
+COX8A, EPN3, ETFB, FCGRT, MRPS7 and PRSS23.
+
+Among these candidates, PRSS23, FCGRT, ETFB and MRPS7 showed the strongest tumor-associated expression evidence in the discovery dataset.
+
+EPN3 showed a strong malignant-vs-diploid detection difference but weaker sample consistency.
+
+COX8A showed very high malignant-cell detection but relatively low tumor specificity because it was also highly detected in diploid cells.
+
+An important methodological finding was that strong internal validation performance did not consistently translate into strong performance on completely held-out samples.
+
+This highlights the importance of sample-aware validation when applying machine learning to single-cell datasets.
+
+Overall, the project demonstrates a strategy for combining bioinformatics, machine learning, sample-aware validation, expression analysis, external validation, and biological interpretation to prioritize candidate genes.
+
+The final genes should be considered computationally prioritized breast cancer biomarker research candidates, not clinically validated biomarkers.
+
+Larger independent cohorts and experimental validation will be required to establish their diagnostic, prognostic, therapeutic, or causal relevance.
+
+Author
+
+Shivajeet Yadav
+
+Bioinformatics | Computational Biology | NGS | Single-Cell Genomics | Machine Learning
+

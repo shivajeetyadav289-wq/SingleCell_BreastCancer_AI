@@ -1171,73 +1171,6 @@ scripts/R/28_extract_ml_dataset.R
 
 ---
 
-# Project Structure
-
-```text
-SingleCell_BreastCancer_AI/
-│
-├── README.md
-│
-├── .gitignore
-│
-├── scripts/
-│   │
-│   ├── R/
-│   │   └── 28_extract_ml_dataset.R
-│   │
-│   └── Python/
-│       ├── 29_ml_dataset_qc.py
-│       ├── 30_feature_filtering.py
-│       ├── 31_construct_feature_sets.py
-│       ├── 32_ml_validation_strategy.py
-│       ├── 33_logistic_regression_50.py
-│       ├── 34_logistic_regression_986.py
-│       ├── 34b_logistic_regression_986_tuned.py
-│       ├── 35_data_driven_feature_selection.py
-│       ├── 36_bioinformatics_ml_consensus_analysis.py
-│       ├── 37_consensus_candidate_characterization.py
-│       ├── 38_consensus_expression_validation.py
-│       ├── 39_consensus_visualization.py
-│       ├── 40_biological_interpretation.py
-│       ├── 41_bioinformatics_ml_cross_validation.py
-│       ├── 42_ml_consensus_external_validation.py
-│       ├── 43_celltype_tumor_specificity.py
-│       ├── 44_final_multilayer_evidence.py
-│       └── 45_final_biological_interpretation.py
-│
-├── results/
-│   │
-│   ├── malignant/
-│   │
-│   └── ai_ml/
-│       ├── 28_ml_dataset/
-│       ├── 29_dataset_qc/
-│       ├── 30_feature_selection/
-│       ├── 31_feature_sets/
-│       ├── 32_validation/
-│       ├── 33_logistic_regression_50/
-│       ├── 34_logistic_regression_986/
-│       ├── 34b_logistic_regression_986_tuned/
-│       ├── 35_data_driven_features/
-│       ├── 36_bioinformatics_ml_consensus/
-│       ├── 37_consensus_characterization/
-│       ├── 38_consensus_expression_validation/
-│       ├── 39_consensus_visualization/
-│       ├── 40_biological_interpretation/
-│       ├── 41_bioinformatics_ml_cross_validation/
-│       ├── 42_external_validation/
-│       ├── 43_celltype_tumor_specificity/
-│       ├── 44_final_multilayer_evidence/
-│       └── 45_final_biological_interpretation/
-│
-├── figures/
-│
-└── data/
-    └── Large datasets and expression matrices excluded from GitHub
-```
-
----
-
 # Large Data Files
 
 Large expression matrices and raw datasets are intentionally excluded from the GitHub repository.
@@ -1248,44 +1181,6 @@ Examples include:
 28_expression_matrix.mtx.gz
 30_filtered_expression_matrix.mtx.gz
 ```
-
-These files can be regenerated from the source data using the provided analysis scripts.
-
-This keeps the GitHub repository lightweight while preserving the reproducible analysis workflow.
-
----
-
-# Recommended README Figures
-
-The following figures are particularly useful for presenting the final project.
-
-## 1. Evidence-Layer Convergence
-
-```markdown
-![Evidence Layer Convergence](results/ai_ml/45_final_biological_interpretation/figures/45_evidence_layer_convergence.png)
-```
-
-## 2. Final Candidate Scores
-
-```markdown
-![Final Candidate Scores](results/ai_ml/45_final_biological_interpretation/figures/45_final_candidate_scores.png)
-```
-
-## 3. Tumor Association
-
-```markdown
-![Tumor Association](results/ai_ml/45_final_biological_interpretation/figures/45_tumor_association_detection_difference.png)
-```
-
-## 4. Discovery vs External Validation
-
-```markdown
-![Discovery vs External Validation](results/ai_ml/42_external_validation/figures/42_discovery_vs_external_expression.png)
-```
-
-These figures can be inserted into the appropriate sections of this README after confirming their exact filenames in the repository.
-
----
 
 # Future Work
 
